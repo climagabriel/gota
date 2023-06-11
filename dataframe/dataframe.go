@@ -102,7 +102,7 @@ func (df DataFrame) Copy() DataFrame {
 
 // String implements the Stringer interface for DataFrame
 func (df DataFrame) String() (str string) {
-	return df.print(true, true, true, true, 10, 70, "DataFrame")
+	return df.print(false, false, false, false, 10, 70, "DataFrame")
 }
 
 // Returns error or nil if no error occured
